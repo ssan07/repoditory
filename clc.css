@@ -1,8 +1,8 @@
 .e{
     padding: 20px;
     display: flex;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertical */
+  justify-content: center;
+  align-items: center;
   height: 100vh; 
 }
 body{
@@ -17,29 +17,35 @@ body{
     padding:20px;
     padding-top: 30px;
     height: auto;
-    width: 500px;
+    width: 450px;
     text-align: center;
     align-content: center;
     justify-content: center;
    
     background-color:rgba(255, 231, 196, 0.068)
 }
-.new {
-    margin-left: 250px;
+.h{
+    display: flex;
+    font-size: 40px;
+    color: rgb(117, 100, 1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-#enter {
-   background-color: rgba(79, 218, 243, 0.747);
-   color: aliceblue;
-   font-size: 40px;
-   transition: background-color 0.5s ease;
+#enter{
+    background-color: rgb(173, 238, 250);
 }
 #enter:hover{
     background-color: rgb(0, 217, 255);
+}
+#enter:active{
+    background-color: rgb(0, 150, 255);
 }
 .keys{
     font-size: 20px;
     height: 65px;
     width: 95px;
+    border:2px solid goldenrod;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -47,31 +53,26 @@ body{
 }
 input {
     height: 50px;
-    width: 450px;
+    width: 400px;
     border-radius: 50px;
-    border: 2px solid rgba(0, 0, 0, 0.63);
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.726);
+    color: #FFA500;
+    border: 2px solid goldenrod; 
+    text-align: right;
 }
-.k1 {
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    transition: background-color 0.5s ease;
-}
+
 .keys:hover {
-    background-color: rgba(245, 222, 179, 0.938);
+    background-color: rgba(245, 222, 179, 0.767);
+}
+.keys:active{
+    background-color: rgb(255, 194, 82);
 }
 table{
     margin-left: auto;
     margin-right: auto;
 }
-#cross{
-    background-color: rgb(241, 47, 47);
-}
-#cross:hover{
-    background-color: rgb(153, 2, 2);
-}
-.k1:hover{
-    background-color: rgb(245, 232, 209);
+
+td,tr{
+    padding: 2px;
 }
