@@ -8,7 +8,6 @@
 body{
  background-image: url(a.jpg);
  background-repeat: repeat;
- background-size: cover;
 }
 .body{
     outline: 2px solid rgba(250, 219, 46, 0.589);
