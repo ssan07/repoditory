@@ -1,4 +1,123 @@
+body{
+    font-size: 35px;
+    background-image: url('./places/canyon-1836412.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
 ul li{
     display: inline;
     
+}
+
+#about{
+    padding: 30px;
+}
+.para {
+    font-size: 30px;
+}
+#contacts {
+    border-top: 4px solid black;
+    padding-right: 20px;
+    text-align: right;
+    align-items: end;
+    justify-content: right;
+}
+.conticon {
+     width: 35px;
+     padding: 10px;
+    height: 35px;
+}
+table{
+    padding: 35px;
+}
+.nav{
+    display: inline;
+    align-items: end;
+    justify-content: end;
+    text-align: right;
+    
+}
+.urlhome {
+    text-decoration: none;
+    color: rgb(144, 141, 141);
+}
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(77, 250, 192, 0.558);
+    color: aliceblue;
+    padding: 5px 15px;
+    box-shadow: 0 2px 5px aquamarine;
+    height: auto;
+}
+
+.head {
+    font-size: 40px;
+    background-position: center;
+    background-attachment: scroll;
+}
+.lineimg {
+    padding: 10px;
+    background-color: rgba(127, 255, 212, 0.516);
+}
+.imap{
+    padding: 10px;
+    transition: height 0.5s ease;
+    border-radius: 30px;
+}
+#ig1:hover{
+    height: 300px;
+}
+#ig2:hover{
+    height: 300px;
+}
+#ig3:hover{
+    height: 300px;
+}
+#ig4:hover{
+    height: 300px;
+}
+#ig5:hover{
+    height: 300px;
+}
+#ig6:hover{
+    height: 300px;
+}
+#ig7:hover{
+    height: 300px;
+}
+#ig8:hover{
+    height: 300px;
+}
+#ig9:hover{
+    height: 300px;
+}
+#ig10:hover{
+    height: 300px;
+}
+.form{
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
+}
+.formdiv {
+    text-align: center;
+}
+input {
+    text-align: center;
+    width:300px;
+    height: 30px;
+    border-radius: 50px;
+}
+button{
+    width:150px;
+    height: 30px;
+    border-radius: 50px;
 }
