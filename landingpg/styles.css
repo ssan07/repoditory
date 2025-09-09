@@ -1,16 +1,20 @@
+.logo{
+    border-radius: 50%;
+}
 body{
-    font-size: 35px;
-    background-image: url('./places/canyon-1836412.jpg');
+    background-image: url('./wp4600617-beautiful-lake-landscape-scenery-wallpapers.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    margin: 0;
-    height: 100vh;
+    overflow:scroll;
+    margin: 0px;
+    font-family: "Delius", sans-serif;
+    background:linear-gradient(rgba(255, 255, 255, 0.433)),url(./wp4600617-beautiful-lake-landscape-scenery-wallpapers.jpg);
 }
 ul li{
     display: inline;
-    
+    padding: 10px;
 }
 
 #about{
@@ -23,54 +27,75 @@ ul li{
     border-top: 4px solid black;
     padding-right: 20px;
     text-align: right;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     align-items: end;
     justify-content: right;
 }
 .conticon {
-     width: 35px;
-     padding: 10px;
+    width: 35px;
     height: 35px;
 }
-table{
-    padding: 35px;
+.table{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-top: 0px;
+    align-items: end;
+    text-align: end;
+    justify-content: end;
+    width: 100%;
 }
 .nav{
     display: inline;
     align-items: end;
     justify-content: end;
     text-align: right;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .urlhome {
     text-decoration: none;
-    color: rgb(144, 141, 141);
+    color: rgb(249, 244, 244);
+}
+#contacts{
+    font-size: 25px;
+    text-align: end;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 nav {
-    position:fixed;
+    position:sticky;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    background-color: rgba(77, 250, 192, 0.558);
+    
+    background-color: rgba(0, 0, 0, 0.373);
     color: aliceblue;
-    padding: 5px 15px;
-    box-shadow: 0 2px 5px aquamarine;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(12, 12, 12, 0.374);
     height: auto;
 }
 
 .head {
-    font-size: 40px;
+    font-size: 60px;
+    color: #ff0000;
     background-position: center;
     background-attachment: scroll;
-}
-.lineimg {
-    padding: 10px;
-    background-color: rgba(127, 255, 212, 0.516);
+    text-align: center;
 }
 .imap{
     padding: 10px;
     transition: height 0.5s ease;
     border-radius: 30px;
+}
+.places{
+    padding: 10px;
+    background-color: rgba(215, 219, 218, 0);
 }
 #ig1:hover{
     height: 300px;
@@ -120,4 +145,33 @@ button{
     width:150px;
     height: 30px;
     border-radius: 50px;
+}
+.td {
+    padding: 0px;
+    font-size: 25px;
+}
+.link{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+ .call-button {
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.places{
+    width: 100%;
+}
+.contac{
+    font-size: 25px;
+    
+}
+.cont{
+    padding: 50px;
+}
+.submit{
+    font-family: "Delius", sans-serif;
 }
