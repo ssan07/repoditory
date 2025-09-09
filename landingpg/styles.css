@@ -140,11 +140,15 @@ input {
     width:300px;
     height: 30px;
     border-radius: 50px;
+    background-color: #00000074;
 }
 button{
     width:150px;
     height: 30px;
     border-radius: 50px;
+}
+textarea{
+    background-color: #0000009a;
 }
 .td {
     padding: 0px;
@@ -174,4 +178,7 @@ button{
 }
 .submit{
     font-family: "Delius", sans-serif;
+}
+.padding{
+    padding: 30px;
 }
